@@ -10,7 +10,7 @@ import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import {SafeAreaView} from 'react-native';
-import MapPage from './components/MapPage';
+import MapPage2 from './components/MapPage2';
 const Stack = createStackNavigator();
 
 export default class App extends React.Component {
@@ -21,7 +21,7 @@ export default class App extends React.Component {
           <Stack.Screen
             options={{headerShown: false}}
             name="MapView"
-            component={MapPage}
+            component={MapPage2}
           />
         </Stack.Navigator>
       </NavigationContainer>

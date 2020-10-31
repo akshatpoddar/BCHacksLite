@@ -12,7 +12,7 @@ import Constants from 'expo-constants';
 const requestCameraPermission = async () => {
   try {
     const granted = await PermissionsAndroid.request(
-      PermissionsAndroid.PERMISSIONS.CAMERA,
+      PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
       {
         title: 'Cool Photo App Camera Permission',
         message:
