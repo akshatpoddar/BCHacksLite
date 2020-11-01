@@ -99,7 +99,7 @@ export default class MapPage extends Component {
           }}>
           <View style={styles.modalcontainer}>
             <View style={styles.ModalView}>
-              <Image source={require('./images/BLOOD.png')} />
+              <Image source={require('./images/BLOOD.png')} blurRadius={0.1} />
               <Text style={styles.modalText}>
                 Look at the map for special locations marked red
               </Text>
@@ -114,7 +114,7 @@ export default class MapPage extends Component {
           onRequestClose={() => {
             this.setCameraModalVisible(false);
           }}>
-          <View style={styles.container}>
+          <View style={styles.Cameracontainer}>
             <RNCamera
               ref={(ref) => {
                 this.camera = ref;
@@ -149,20 +149,27 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
+  Cameracontainer: {
+    height: '60%',
+    top: '20%',
+    width: '100%',
+    backgroundColor: 'tomato',
+  },
   container: {
     height: '100%',
     width: '100%',
     backgroundColor: 'tomato',
   },
   modalcontainer: {
-    height: '100%',
+    height: '20%',
+    top: '40%',
     width: '100%',
     backgroundColor: 'transparent',
+    borderRadius: 20,
+    borderColor: 'red',
+    borderWidth: 2,
   },
-  map: {
-    flex: 1,
-  },
-  ModalView: {
+  /*ModalView: {
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: 'transparent',
@@ -174,7 +181,11 @@ const styles = StyleSheet.create({
     top: '50%',
     height: 150,
     width: '90%',
+  },*/
+  map: {
+    flex: 1,
   },
+
   modalText: {
     justifyContent: 'center',
     textAlign: 'center',
