@@ -38,4 +38,3 @@ to maintain social distancing.
 - James Kivai
 - Akshat Poddar
 - Kiet Phan
-- Shan Hong Liew
