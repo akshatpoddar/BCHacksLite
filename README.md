@@ -8,7 +8,7 @@ An app allows tracking of customers in various services around them. These servi
 to maintain social distancing.
 </p>
 
-[![BuildStatus](https://img.shields.io/travis/motdotla/dotenv/master.svg?style=flat-square)](https://github.com/akshatpoddar/BCHacksLite)
+[![BuildStatus](https://img.shields.io/travis/motdotla/dotenv/master.svg?style=flat-square)](https://dashboard.heroku.com/apps/mess-messbot-bot)
 <img src="https://img.shields.io/badge/license-MIT-yellow" />
 <img src="https://img.shields.io/badge/author-Halloweebs-orange"/>
 <img src="https://img.shields.io/badge/language-JavaScript & Python-black"/>
